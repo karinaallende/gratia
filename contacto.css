@@ -1,0 +1,141 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #151b28;
+  text-align: center;
+}
+
+.color-fondo {
+  background-color: white;
+}
+
+.color {
+  color: black;
+  font-weight: bold;
+}
+
+.color-tamano {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #d89b64;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-footer {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-text-after::after {
+  content: "";
+  border-top: 1px solid;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #9a9ea9;
+}
+
+.centrar {
+  text-align: center;
+  color: #9a9ea9;
+}
+
+.card-text-titulo {
+  font-family: "crimson pro";
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #9a9ea9;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #151b28;
+  text-align: center;
+}
+
+.border {
+  border-radius: 0;
+}
+
+.pading {
+  padding: 15px;
+}
+
+.letra {
+  text-align: center;
+  font-weight: bold;
+  color: #151b28;
+}
+
+input::-webkit-input-placeholder {
+  font-weight: bold;
+  color: #151b28;
+  font-size: 12px;
+}
+
+input::-moz-placeholder {
+  font-weight: bold;
+  color: #151b28;
+  font-size: 12px;
+}
+
+input:-ms-input-placeholder {
+  font-weight: bold;
+  color: #151b28;
+  font-size: 12px;
+}
+
+input::-ms-input-placeholder {
+  font-weight: bold;
+  color: #151b28;
+  font-size: 12px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: #151b28;
+  font-size: 12px;
+}
+
+.menu-prepare {
+  background-color: #151b28;
+  color: #d89b64;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.type-send {
+  background-color: #d89b64;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.type-send:hover {
+  background-color: #d89b64;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
